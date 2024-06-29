@@ -9,15 +9,14 @@
 </head>
 <body>
     <!--NavBar-->
-    <nav class="container mx-auto p-6 ">
-        <!--Flex Container-->
-        <div class="flex items-center justify-between bg-green-500 h-20"> 
+    <nav class="container flex mx-auto p-6 bg-green-500 h-20 justify-between mb-5">
+        
             <!--Title-->
-            <div class="rounded-lg pl-3 pr-3 pt-2 pb-1 h-10 bl-2 bg-red-400 text-white font-bold text-lg">
+            <div class="rounded-lg pl-3 pr-3 pt-2 pb-2 h-10 bl-2 bg-red-400 text-white font-bold text-lg">
                 TraveLessMugMore
             </div>
             <!--Menu Items-->
-            <div class="flex space-x-0.5 md:space-x-20 pr-24">
+            <div class="flex pt-2 space-x-0.5 md:space-x-20 lg:space-x-40 xl:space-x-60">
                 <a href="#" class="text-black hover:text-gray-500">
                     Home/About
                 </a>
@@ -32,13 +31,13 @@
                 </a>
             </div>
             
-        </div>
+        
         
     </nav>
 
 
     <!--Home-->
-    <div class="container flex flex-col mx-auto p-6 justify-between">
+    <div class=" hidden container flex flex-col mx-auto p-6 justify-between">
         <div class="container justify-around">
             <h1 class="text-3xl underline pb-3">
                 About this Website
@@ -74,6 +73,248 @@
             </p>
         </div>
     </div>
+
+    <!--Tools-->
+    <div class="container flex flex-col justify-between mx-auto p-0 py-1">
+        <!--Title-->
+        <form class="flex items-center justify-between bg-green-400 mb-3 mx-0 px-0">
+            <h1 class="ml-3 text-3xl font-bold"> Modules</h1>
+            <div class="float-right">
+                <input type="text" id="modulesAdded" placeholder="Modules to add"         class="min-w-32 py-3 ml-auto">
+                <button class="bg-red-500 hover:bg-orange-400 px-5 py-3 float-right ml-auto" type="submit" >
+                    + Add
+                </button>
+            </div>            
+        </form>
+
+        <!--Modules-->
+        <div>
+            <!--Modules Title-->
+            <div class="flex justify-between items-center bg-green-400 mt-6">
+                <h1 class=" pl-3 text-3xl font-bold"> CS2103T</h1>
+                <button class =" px-20 bg-red-500 font-bold text-4xl hover:bg-orange-400"> X </button>
+            </div>
+            <!--Modules Tut/Lect1-->
+            <div class="flex flex-col lg:flex-row ">                
+                <!--Modules Tut/Lect1-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1700 - 1800, COM
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-500 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-300 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1800 - 1900, OUT
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-300 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-500 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                </div>
+                <!--Modules Tut/Lect2-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1700 - 1800, COM
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-500 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-300 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1800 - 1900, OUT
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-300 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-500 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1800 - 1900, OUT
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-300 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-500 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                </div>
+                
+                <!--Modules Tut/Lect3-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1700 - 1800, COM
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-500 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-300 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1800 - 1900, OUT
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-300 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-500 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1800 - 1900, OUT
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-300 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-500 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                    
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1700 - 1800, COM
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-500 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-300 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1800 - 1900, OUT
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-300 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-500 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-between">
+                        Wednesday, 1800 - 1900, OUT
+                        <button class =" px-5 md:px-10 lg:px-15 bg-green-300 font-bold text-3xl hover:bg-orange-400"> &check; </button> 
+                        <button class =" px-5 md:px-10 lg:px-15 bg-red-500 font-bold text-3xl hover:bg-orange-400"> X </button>                   
+                    </div>
+                </div>
+          
+
+        </div>
+
+        <!--Modules-->
+        <div>
+            <!--Modules Title-->
+            <div class="flex justify-between items-center bg-green-400 mt-6">
+                <h1 class=" pl-3 text-3xl font-bold"> CS2103T</h1>
+                <button class =" px-20 bg-red-500 font-bold text-4xl hover:bg-orange-400"> X </button>
+            </div>
+            <!--Modules Tut/Lect1-->
+            <div class="flex flex-col lg:flex-row ">                
+                <!--Modules Tut/Lect1-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+                <!--Modules Tut/Lect2-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+                
+                <!--Modules Tut/Lect3-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+          
+
+        </div>
+
+        <div>
+            <!--Modules Title-->
+            <div class="flex justify-between items-center bg-green-400 mt-6">
+                <h1 class=" pl-3 text-3xl font-bold"> CS2103T</h1>
+                <button class =" px-20 bg-red-500 font-bold text-4xl hover:bg-orange-400"> X </button>
+            </div>
+            <!--Modules Tut/Lect1-->
+            <div class="flex flex-col lg:flex-row ">                
+                <!--Modules Tut/Lect1-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+                <!--Modules Tut/Lect2-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+                
+                <!--Modules Tut/Lect3-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+          
+
+        </div>
+
+        <div>
+            <!--Modules Title-->
+            <div class="flex justify-between items-center bg-green-400 mt-6">
+                <h1 class=" pl-3 text-3xl font-bold"> CS2103T</h1>
+                <button class =" px-20 bg-red-500 font-bold text-4xl hover:bg-orange-400"> X </button>
+            </div>
+            <!--Modules Tut/Lect1-->
+            <div class="flex flex-col lg:flex-row ">                
+                <!--Modules Tut/Lect1-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+                <!--Modules Tut/Lect2-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+                
+                <!--Modules Tut/Lect3-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+          
+
+        </div>
+
+        <div>
+            <!--Modules Title-->
+            <div class="flex justify-between items-center bg-green-400 mt-6">
+                <h1 class=" pl-3 text-3xl font-bold"> CS2103T</h1>
+                <button class =" px-20 bg-red-500 font-bold text-4xl hover:bg-orange-400"> X </button>
+            </div>
+            <!--Modules Tut/Lect1-->
+            <div class="flex flex-col lg:flex-row ">                
+                <!--Modules Tut/Lect1-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+                <!--Modules Tut/Lect2-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+                
+                <!--Modules Tut/Lect3-->
+                <div class="lg:w-1/2">
+                    <div class="mt-2 flex bg-white border-2 border-black items-center justify-around hover:text-gray-500">
+                        Tutorial01 (click to hide)                  
+                    </div>
+                    
+                </div>
+          
+
+        </div>
+        
+    </div>
+
+    <div class="my-40"></div>
 
 </body>
 </html>
