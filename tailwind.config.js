@@ -9,8 +9,11 @@ module.exports = {
         lg: '976px',
         xl: '1440px'
 
-      }
-    },
+      },
+      fontSize : {
+        '0.5rem' : '0.5rem',
+      },
+    }
   },
   plugins: [],
 }
